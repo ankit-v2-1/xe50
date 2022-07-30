@@ -1,12 +1,18 @@
 import { useState, useEffect, Fragment } from 'react'
 import './App.css'
 
+import { Categories, Providers, Descriptor } from './components';
+
+
 
 
 
 function App() {
 
-  const [data, setData] = useState('null');
+
+  const [bppCategories, setBppCategories] = useState([]);
+  const [bppProviders, setBppProviders] = useState([]);
+  const [bppDescriptor, setBppDescriptor] = useState([]);
 
   const requestOptions = {
     method: 'GET',
@@ -21,8 +27,12 @@ function App() {
     fetch(url, requestOptions)
       .then(res => res.json())
       .then(data => {
-        console.log(data);
-        setData(data)
+
+
+        setBppCategories(data.message.catalog["bpp/categories"]);
+        setBppProviders(data.message.catalog["bpp/providers"]);
+        setBppDescriptor(data.message.catalog["bpp/descriptor"]);
+
       });
 
   }, [url]);
@@ -30,8 +40,14 @@ function App() {
 
   return (
     <Fragment>
-      <h1>Hello, world!</h1>
-      {JSON.stringify(data)}
+      <Descriptor bppDescriptor={bppDescriptor} />
+      <Categories bppCategories={bppCategories} />
+      <Providers bppProviders={bppProviders} />
+
+
+
+
+
     </Fragment>
   )
 }
