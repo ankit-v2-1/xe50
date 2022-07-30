@@ -15,10 +15,10 @@ function App() {
     }
   }
 
-  const url = 'https://b913-2405-204-5207-ff18-9071-a6a7-87ee-7b03.in.ngrok.io/search';
+  const url = 'http://localhost:3000/search';
 
   useEffect(() => {
-    fetch(url + "?wait=true", requestOptions)
+    fetch(url, requestOptions)
       .then(res => res.json())
       .then(data => {
         console.log(data);

@@ -2,13 +2,16 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import fetch from 'cross-fetch';
 import crypto from 'crypto';
-var proxy = require('express-http-proxy');
+var cors = require('cors');
+
 
 
 const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use('/proxy', proxy('www.google.com'));
+app.use(cors({
+    origin: '*',
+}));
 
 
 
@@ -69,6 +72,7 @@ app.post('/callback/on_search', (req, res) => {
 
 
 app.get('/search', (req, res) => {
+    res.set('Access-Control-Allow-Origin', '*');
     res.send(callbackData);
 })
 
