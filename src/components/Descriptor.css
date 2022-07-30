@@ -8,10 +8,14 @@
 }
 
 
-
+.dist-head {
+    font-size: 1.6em;
+    font-weight: bold;
+    background-color: #03a584;
+}
 
 .descriptor-table {
-    text-align: center;
+
     border-collapse: collapse;
     margin: 2px;
     font-size: 0.6em;
@@ -25,7 +29,7 @@
 
 
 .descriptor-table td {
-    padding: 15px 15px;
+    padding: 5px 50px;
 }
 
 .descriptor-table tbody tr:last-of-type {

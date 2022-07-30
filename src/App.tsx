@@ -1,7 +1,7 @@
 import { useState, useEffect, Fragment } from 'react'
 import './App.css'
 
-import { Categories, Providers, Descriptor } from './components';
+import { Categories, Providers, Descriptor, Header } from './components';
 
 
 
@@ -40,6 +40,8 @@ function App() {
 
   return (
     <Fragment>
+
+      <Header />
       <Descriptor bppDescriptor={bppDescriptor} />
       <Categories bppCategories={bppCategories} />
       <Providers bppProviders={bppProviders} />

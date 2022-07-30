@@ -14,7 +14,9 @@ let Descriptor = ({ bppDescriptor }) => {
 
 
                 <tbody >
-
+                    <tr>
+                        <td className="dist-head">DESCRIPTOR</td>
+                    </tr>
                     <tr>
                         <td><img src={bppDescriptor.symbol} alt="symbol" width="85" height="80" /></td>
 
