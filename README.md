@@ -11,22 +11,6 @@
 ![alt-text](src/assets/logoHeader.png)
  | ------ |
 
-<p align="center">
-  <h3 align="center">visually.</h3>
-
-  <p align="center">
-web app that helps visualise compliance!
-    <br />
-    <a href="https://github.com/ankit-v2-1/xe50"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/ankit-v2-1/xe50">View Demo</a>
-    ·
-    <a href="https://github.com/ankit-v2-1/xe50/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/ankit-v2-1/xe50/issues">Request Feature</a>
-  </p>
-</p>
 
 ## Description
 Submission of eSamudaay Hackathon22.
