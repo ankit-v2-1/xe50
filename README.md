@@ -49,15 +49,19 @@ Rubric for Evaluation:
 ## Preview
 ### Descriptor.<br />
 
-<img src="https://github.com/ankit-v2-1/xe50/blob/main/src/assets/homepage.png" >
+
+## Preview
+### Descriptor.<br />
+![alt-text](src/assets/homepage.png)
+| ------ |
 
 ### Categories.<br />
-
-<img src="https://github.com/ankit-v2-1/xe50/blob/main/src/assets/descriptor.png" >
+![alt-text](src/assets/descriptor.png)
+| ------ |
 
 ### Providers. <br />
-
-<img src="https://github.com/ankit-v2-1/xe50/blob/main/src/assets/provider.png" >
+![alt-text](src/assets/provider.png)
+| ------ |
 
 
 
