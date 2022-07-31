@@ -13,7 +13,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/ankit-v2-1/xe50">
-    <img src="https://github.com/ankit-v2-1/xe50/blob/main/src/assets/logo.png" alt="Logo" width="160" height="150">
+    <img src="https://github.com/ankit-v2-1/xe50/blob/main/src/assets/logo.png" alt="Logo" width="200" height="180">
   </a>
 
   <h3 align="center">visually.</h3>
@@ -47,13 +47,16 @@ Rubric for Evaluation:
 
 
 ## Preview
-Descriptor.<br />
+### Descriptor.<br />
+
 <img src="https://github.com/ankit-v2-1/xe50/blob/main/src/assets/homepage.png" >
 
-Categories.<br />
+### Categories.<br />
+
 <img src="https://github.com/ankit-v2-1/xe50/blob/main/src/assets/descriptor.png" >
 
-Providers. <br />
+### Providers. <br />
+
 <img src="https://github.com/ankit-v2-1/xe50/blob/main/src/assets/provider.png" >
 
 
@@ -69,7 +72,7 @@ Providers. <br />
 [stars-url]: https://github.com/ankit-v2-1/xe50/stargazers
 [issues-shield]: https://img.shields.io/github/issues/ankit-v2-1/xe50.svg?style=for-the-badge
 [issues-url]: https://github.com/ankit-v2-1/xe50/issues
-[license-shield]: https://img.shields.io/github/license/ankit-v2-1/xe50.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/ankit-v2-1/reframe.svg?style=for-the-badge
 [license-url]: https://github.com/ankit-v2-1/reframe/blob/dev/LICENSE
 [twitter-shield]: https://img.shields.io/twitter/follow/ankit_v2_1?style=for-the-badge&color=09f&labelColor=black.svg&logo=twitter&label=@ankit_v2_1
 [twitter-url]: https://twitter.com/ankit_v2_1
