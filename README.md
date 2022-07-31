@@ -8,14 +8,9 @@
 
 
 
+![alt-text](src/assets/logoHeader.png)
 
-
-<br />
 <p align="center">
-  <a href="https://github.com/ankit-v2-1/xe50">
-    <img src="https://github.com/ankit-v2-1/xe50/blob/main/src/assets/logo.png" alt="Logo" width="200" height="180">
-  </a>
-
   <h3 align="center">visually.</h3>
 
   <p align="center">
