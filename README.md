@@ -46,9 +46,6 @@ Rubric for Evaluation:
 3. Compliance needs to be displayed in a useful way
 
 
-## Preview
-### Descriptor.<br />
-
 
 ## Preview
 ### Descriptor.<br />
