@@ -9,6 +9,7 @@
 
 
 ![alt-text](src/assets/logoHeader.png)
+ | ------ |
 
 <p align="center">
   <h3 align="center">visually.</h3>
